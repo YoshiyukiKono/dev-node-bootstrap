@@ -1,0 +1,51 @@
+# ------------------------------------------------------------
+# Developer Identity
+# ------------------------------------------------------------
+
+# SSH
+.ssh/
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+
+# GPG
+.gnupg/
+
+# Environment
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Temporary
+tmp/
+temp/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# kubeconfig
+.kube/
+
+# Local configuration
+local/
